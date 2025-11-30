@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: white;
+}
+
+/* Sidebar button */
+.menu-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 45px;
+    height: 45px;
+    background: #111;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+/* Sidebar */
+.history-panel {
+    position: fixed;
+    top: 0;
+    left: -320px;
+    width: 300px;
+    height: 100%;
+    background: #1b1b1b;
+    color: white;
+    padding: 20px;
+    transition: left .3s ease;
+    overflow-y: auto;
+    z-index: 1500;
+}
+
+.history-panel.open {
+    left: 0;
+}
+
+/* Developer info in sidebar */
+.dev-title {
+    margin-top: 20px;
+}
+.dev-name {
+    color: #0aff0a;
+}
+
+/* Main container */
+.container {
+    margin: 80px auto;
+    width: 350px;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Display */
+.display-row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+#display {
+    flex: 1;
+    background: #111;
+    padding: 20px;
+    min-height: 40px;
+    border-radius: 10px;
+    font-size: 24px;
+    overflow-x: auto;
+    border: 1px solid #333;
+}
+
+#copy-btn {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background: #222;
+    border: 1px solid #333;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background: #1a1a1a;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0aff0a;
+    color: black;
+}
+
+.equal {
+    background: #0aff0a;
+    color: black;
+}
+
+/* Popup windows */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.7);
+    z-index: 3000;
+}
+
+.popup-box {
+    background: #111;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popup-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #000;
+    border: 1px solid #333;
+    color: #0aff0a;
+    border-radius: 6px;
+}
+
+.close-btn {
+    margin-top: 15px;
+    background: #444;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #050505;
+    color: #888;
+}
