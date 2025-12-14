@@ -1,4 +1,5 @@
 # LCalc — Advanced Open-Source Calculator
+check the [Website](https://l-infinity.github.io/LCalc/)
 
 LCalc is a powerful, modern, dark-mode calculator designed to be simple to use and fully feature-rich.  
 Everything is free, open source, and built to run smoothly on any device.
@@ -46,5 +47,6 @@ Everything is free, open source, and built to run smoothly on any device.
 **B LOKAJNA REDDY**
 
 ---
+
 
 
